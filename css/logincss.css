@@ -1,0 +1,64 @@
+.bgImageLogin{
+    background: url('../images/contact/mikhail-pavstyuk-8436-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 0px 70px 0px;
+}
+.headText{
+	border: 2px solid white;
+	padding: 3px 0px 3px 10px;
+	margin-top: 60px;
+}
+form button{
+  width: 100%;
+  border:none;
+  border-radius: 0px!important;
+  background: #009688de!important;
+  color: white!important;
+  padding: 5px 0px;
+}
+form button:hover{
+  background: #ff9800cf!important;
+}
+form label, h6, i{
+  color: white;
+}
+form label{
+	font-size: 18px;
+}
+form input{
+  background: transparent!important;
+  border:none!important;
+  border-bottom: 1px solid white!important;
+  width: 83%;
+  color: white!important;
+  font-size: 20px!important;
+  position: relative;
+  padding: 0px 0px 5px 25px;
+}
+form input, label {
+  color: white;
+}
+form input{
+	padding-left: 22px!important;
+}
+.form-control{
+border-radius: 0px!important;
+}
+form input {
+  color: white;
+}
+.form-text{
+	position: relative;
+}
+form .fa , .fas{
+  position: absolute;
+  font-size: 20px;
+  color: #e6e5e5;
+  top: 10px;
+}
+form input::placeholder{
+  margin-left: 20px;
+  color: white;
+}

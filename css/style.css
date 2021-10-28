@@ -1,0 +1,840 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {}
+
+p {
+    font-size: 15px;
+}
+
+h6,
+h5,
+h3,
+h2,
+h1 {
+    font-family: Rubic;
+}
+
+.top_head {
+    background-color: #282d40;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top_head span,
+a {
+    text-decoration: none;
+    color: white;
+    /*padding:0px 2px;*/
+    font-size: 13px;
+}
+
+.icon_socal ul li {
+    float: right;
+    color: white;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.icon_socaldl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+nav#banner {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand span {
+    color: #fed136;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: Rubik;
+    text-transform: uppercase;
+    line-height: 27px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    font-size: 13px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    border-top: 3px solid #fed136;
+}
+
+.dropdown-item:hover {
+    background-color: #fed136;
+    color: #fff;
+}
+
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+}
+
+.shrink {
+    padding: 10px 0 !important;
+    background-color: rgba(40, 45, 64, 0.9);
+    position: fixed !important;
+    top: 0px;
+}
+
+.banner .navbar {
+    position: -webkit-sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/**/
+
+.banner {
+    background-image: url('../images/background_img/HomeIMG.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 708px;
+    width: 100%;
+}
+
+/* mobile view */
+
+@media (max-width:500px) {
+    .navbar-nav {
+        background-color: #000;
+        border-top: 3px solid #fed136;
+        color: #fff;
+        z-index: 1;
+        margin-top: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 0.7em 1em!important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+}
+
+
+/*banner text*/
+
+
+
+
+.really_solution {
+    margin: 215px 0;
+}
+
+.really_solution h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+
+.btn_ask button {
+    background-color: #ccbd99;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border: 1px solid #ccbd99;
+    font-family: Rubik;
+    font-size: 13px;
+    outline: none;
+}
+
+.btn_ask button:hover {
+    background: transparent;
+    color: #ccbd99;
+    transition: all 0.3s ease-in-out !important;
+}
+
+
+/* 2nd section for Something About LawCounsel open css*/
+
+.head_top h6 {
+    font-size: 30px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    font-family: Rubik;
+}
+
+.e_email ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.e_email ul li {
+    float: left;
+    list-style-type: none;
+    color: white;
+    padding: 0 5px;
+}
+
+.head_top p {
+    text-align: center;
+    margin-bottom: 0rem !important;
+    color: black;
+}
+
+.some_thing .head_top p {
+    text-align: center;
+    margin-bottom: 0rem !important;
+    color: white;
+}
+
+.law_counsel {
+    padding: 60px 0;
+    background-image: url('../images/background_img/Home-1-Welcome-Background-Image.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.f_financial p {
+    margin-bottom: 0rem !important;
+    text-align: justify;
+}
+
+.Financial_card {
+    margin: 15px 0px;
+}
+
+.you_can {
+    background-color: #fafafa;
+    padding: 25px;
+    height: 441px;
+}
+
+.you_can p {
+    color: black;
+}
+
+.Financial_card p {
+    color: black !important;
+}
+
+
+/* 2nd section for Something About LawCounsel close css*/
+
+
+/*3rd section Areas of Practice open css */
+
+.some_thing {
+    background-image: url(../images/background_img/Areas-of-Practice-Background-Image.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.some_thing h6 {
+    color: white;
+}
+
+.some_thing p {
+    color: white;
+}
+
+.area_low img {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.area_low {
+    text-align: center;
+    margin: 30px;
+}
+
+.area_low h6 {
+    font-size: 22px;
+    color: white !important;
+}
+
+.area_low p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.area_low a {
+    color: #ccbd99;
+    line-height: 26px;
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+}
+
+
+/*3rd section Areas of Practice close css */
+
+.One_kind {
+    /* background-image: url(../images/background_img/Our-Success-Cases-Icon.jpg); */
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/*4th section One of a Kind Personalized Attention open css*/
+
+.One_kind {
+    padding: 70px 0;
+}
+
+.a_attention h5 {
+    font-size: 30px;
+    color: #000;
+}
+
+.a_attention p {
+    color: black;
+}
+
+.d_discuss h5 {
+    font-size: 25px;
+    color: #000;
+}
+
+.d_discuss p {
+    color: #000;
+}
+
+
+/**/
+
+.d_discuss {
+    margin: 10px 0;
+    padding: 0px 10px;
+}
+
+.legal_issue {
+    border-bottom: 1px solid #d0d0d0 !important;
+    padding: 10px 0px;
+}
+
+
+/*4th section One of a Kind Personalized Attention close css*/
+
+
+/*5th section Criminal Defense, Including Domestic open css*/
+
+.criminal_defense {
+    background-image: url('../images/background_img/Home-1-Like-Theme-Background-Image.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px;
+    overflow: hidden;
+}
+
+.criminal_defense h5 {
+    font-size: 35px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Playfair Display";
+}
+
+.cri_criminal {
+    padding: 10px;
+}
+
+.criminal_defense p {
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0;
+    color: white;
+}
+
+
+/*5th section Criminal Defense, Including Domestic close css*/
+
+
+/*six section for What Our Clients Say open css*/
+
+.qualified_attorney {
+    padding: 60px 0px;
+    box-sizing: border-box;
+}
+
+
+/*six section for What Our Clients Say end css*/
+
+
+/*seven slik carousel css open*/
+
+
+/* Slider */
+
+.customer-logos .card-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #282d40;
+    margin-bottom: 0rem;
+    padding: 6px 0 0 0;
+}
+
+.customer-logos .card-body {
+    padding: 0rem;
+}
+
+.customer-logos {
+    height: 488px;
+}
+
+.customer-logos .card img {
+    width: 100%;
+    width: 380px;
+}
+
+.customer-logos .card {
+    width: 380px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slick-slide {
+    /*margin: 0px 20px;*/
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: 15px;
+    color: #00000080;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.customer-logos .card {
+    border: none;
+}
+
+.card-img-top {
+    width: 380px;
+}
+
+.customer-logos .card-img-top {
+    /* width: 100%; */
+    border-top-left-radius: calc(0rem - 0px);
+    border-top-right-radius: calc(0rem - 0px);
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+/*eight section open What Our Clients Say css*/
+
+.wht_say {
+    background-color: #fbf8f2 !important;
+    padding: 60px 0 100px 0;
+}
+
+
+/*eight section close What Our Clients Say css*/
+
+
+/*##############################################madia query section################################# */
+
+
+/*mobile view*/
+
+@media only screen and (max-width: 576px) {
+    /*card*/
+    .customer-logos .card {
+        width: 415px;
+        height: 532px;
+        margin: auto;
+    }
+    .customer-logos .card img {
+        /*width: 414px;*/
+    }
+    .customer-logos {
+        /*margin-bottom: 20px;*/
+    }
+    /**/
+    .customer-logos .card img {
+        width: 100%;
+        /*width: 279px;*/
+    }
+    .shrink {
+        padding: 8px 10px;
+    }
+}
+
+
+/**/
+
+@media only screen and(min-width:768px) and (max-width: 1024px) {
+    .really_solution {
+        margin: 122px 0;
+        background: red;
+    }
+}
+
+
+/*####################################madia end mobile view#####################################*/
+
+
+/*card customer-testimonial slider  css open*/
+
+.c_customer .bottom-shadow {
+    background-image: url('../images/background_img/Style-Three-Shadow.png');
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.c_customer {
+    position: relative;
+    bottom: 62px;
+}
+
+.c_text {
+    padding: 22px 3px 8px 1px;
+}
+
+.test_img img {
+    position: relative;
+    left: 21px;
+    top: 13px;
+}
+
+.card_test {
+    background-color: white;
+}
+
+.card_test .test_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px #fff solid;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    padding: ;
+}
+
+.card_test h6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #030712;
+    font-family: sans-serif;
+}
+
+.card_test .c_text p:nth-child(2) {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 0rem;
+}
+
+.card_test .c_text p:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.slide.slider_test {
+    margin: 0 10px;
+}
+
+.One_kind {
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background_img/bg_IMAGE1.jpg);
+    /* background-position: bottom; */
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:100%;
+  
+}
+
+
+/*card customer-testimonial slider  css close*/
+
+
+/*Discover Our Latest News And Update open css*/
+
+
+/*Discover Our Latest News And Update cloase css*/
+
+
+/*footer css open*/
+
+.a_abot h6 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.a_abot p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #d9e0e8;
+    padding-bottom: 20px;
+}
+
+.footer-bg {
+    background-color: #171717;
+    background-image: url('../images/background_img/footer.png');
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.i_important ul li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.i_important ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.i_important address {
+    color: white;
+}
+
+.copy_right a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon_socal_footer ul li {
+    float: right;
+    color: white;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.icon_socal_footer,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.f_footer {
+    padding: 20px 0px;
+}
+
+
+/*footer css close*/
+
+.b_business {
+    display: flex;
+}
+
+
+/**/
+
+.customer-logos a:hover {
+    background: #ccbd99 !important;
+    text-decoration: none;
+    -webkit-transition: all 0.6s ease-in-out;
+}
+
+.customer-logos .card {
+    background: transparent;
+}
+
+
+
+
+
+
+
+/**/
+@media only screen and (max-width:500px){
+    .banner {
+      background-position: center;
+      background-attachment:inherit;
+      width: 100%;
+      height: 250px;
+  }
+
+  .really_solution h1 {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+.really_solution p{
+    font: 14px;
+}
+.really_solution {
+    margin: 24px 0;
+    z-index: -999;
+}
+
+  }
+
+  /* ---------media qury for bannner image-------- */
+  
+  @media only screen and (max-width: 500px){
+    /* .abcd{
+        position: relative;
+    } */
+    .banner{
+        position :relative;
+    }
+      .get-txt-fixed-head{
+        
+         position:absolute;
+         top:85px; 
+
+     }
+     .get-text-fixed-p{
+
+        position:absolute;
+        top:105px; 
+     }
+     .really_solution button{
+        position: absolute!important;
+        top:130px; 
+     }
+    
+     .navbar{
+         position:absolute;
+     }
+   
+   }
+
+   @media only screen and (max-width: 600px){
+   .c_text{
+    margin-left: 10px!important;
+   }
+   }
+/*-------*/
